@@ -18,6 +18,7 @@
 
 # print("====Trabalho====")
 
+#conver temperatura fahrenheit ba kelvin
 def fahrenheit_to_kelvin(fahrenheit):
     kelvin = (fahrenheit - 32) * 5/9 + 273
     return kelvin
@@ -27,7 +28,7 @@ kelvin = fahrenheit_to_kelvin(fahrenheit)
 print("Suhu adalah", kelvin, "Kelvin")
 
 
-
+#convert kelvin ba fahrenheit
 def kelvin_to_farenheit (kelvin):
     fahrenheit=(kelvin -273) * 9/5 + 32
     return fahrenheit
